@@ -10,7 +10,7 @@ After "FTDI Gate" there were a lot of discussions about alternatives, and the CH
 
 At the time of writing the datasheet for the CH340C has a very nice pinout diagram, but otherwise is entirely in Chinese.  Which makes it a bit unhelpful.  After getting one and messing around with it a bit, here is how I've gotten it to work:
 
-![CH340C diagram](https://github.com/Shoe-Pi/CH340C/Circuit_diagram.jpg "CH340C diagram")
+![alt text](https://raw.githubusercontent.com/Shoe-Pi/CH340C/master/Circuit_diagram.jpg "CH340C diagram")
 
 The VCC capacitors are taken straight from the datasheet.  The datasheet for the FT232 recommends a ferrite bead on 5V from the USB port and a capacitor across the USBs 5V and GDN rails, but no such requirements for the CH340C.
 
